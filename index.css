@@ -1,0 +1,66 @@
+body {
+  background-color: #000a41;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.txt {
+  display: block;
+  width: 90%;
+  color: rgb(123, 0, 172);
+  margin: 20px auto;
+  height: 50px;
+  border: 2px solid #000a41;
+  outline: none;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.save {
+  margin: -10px 0 20px;
+  padding: 5px;
+  background-color: rgb(123, 0, 172);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.clone {
+  width: 100%;
+  background-color: rgb(123, 0, 172);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: -14px;
+  position: relative;
+  overflow-wrap: anywhere;
+}
+.rem {
+  padding: 5px;
+  background-color: rgb(123, 0, 172);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+.done {
+  padding: 5px;
+  background-color: rgb(123, 0, 172);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+}
